@@ -1,0 +1,12 @@
+[project]
+name = "web-scrapper-crawl4ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "crawl4ai>=0.7.1",
+    "fastapi>=0.116.1",
+    "pydantic-settings>=2.10.1",
+    "uvicorn>=0.35.0",
+]
